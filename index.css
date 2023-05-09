@@ -340,18 +340,55 @@ header.sticky{
     height: 1000px;
 } */
 #nav-link-projects{
+    padding:1%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+    grid-template-columns: repeat(2, minmax(400px, auto));
     align-items: center;
     gap: 2.5rem;
     margin-top: 2rem;
 }
+.project-card img{
+    width: 100%;
+    /* align-items: center; */
+    border-radius: 8px;
+    display: block;
+    transition: transform 0.5s;
+}
 .project-card{
+    padding: 1%;
+    background-color: white;
+    color:black;
+    border-radius: 10px;
+/* line-height: 1px; */
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.liks-deployed{
+    text-decoration: none;
+    color:black;
+    margin-top: 1%;
+    display: flex;
+    gap:3%;
+    font-size: 18px;
+}
+.project-title{
+    margin-top:2%;
+    margin-bottom:2%;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+.project-description{
+    font-size: 18px;
+}
+.project-tech-stack{
+    font-size: 18px;
+}
+/* .project-card{
     position: relative;
     overflow: hidden;
     border-radius: 8px;
     cursor: pointer;
-    /* height: 500px; */
+    
 }
 .project-card img{
     width: 100%;
@@ -359,7 +396,7 @@ header.sticky{
     display: block;
     transition: transform 0.5s;
 }
-.layer{
+/* .layer{
     width: 100%;
     height: 0;
     background: linear-gradient(rgba(0,0,0,0.1),#daa954);
@@ -375,13 +412,13 @@ header.sticky{
     text-align: center;
     padding: 0 40px;
     transition: height 0.5s;
-}
-.layer h5{
+} */
+/* .layer h5{
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 15px;
-}
-.layer p{
+} */
+/* .layer p{
     color: var(--second-color);
     font-size: 1rem;
     line-height: 1.8;
@@ -397,13 +434,13 @@ header.sticky{
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-}
-.project-card:hover img{
+} */
+/* .project-card:hover img{
     transform: scale(1.1);
 }
 .project-card:hover .layer{
     height: 100%;
-}
+} */
 
 /* --------------------------------------contact section style ------------------------------------------------- */
 
